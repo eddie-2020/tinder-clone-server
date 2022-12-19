@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(Cors());
 
 // DB config
-const URI = process.env.CONNECTION_URI;
+const URI = process.env.CONNECTION_URL;
 
 mongoose.connect(URI, {
   useNewUrlParser: true,
