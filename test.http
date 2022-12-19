@@ -1,0 +1,8 @@
+GET http://localhost:5000/tinder/cards
+Content-Type: application/json
+
+# {
+#     "name": "Jeff Bezos",
+#     "imgUrl": "https://www.biography.com/.image/t_share/MTY2NzA3ODE3OTgwMzcyMjYw/jeff-bezos-andrew-herrer_bloomberg-via-getty-images.jpg"
+# }
+
