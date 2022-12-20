@@ -58,6 +58,3 @@ app.get("/tinder/cards", (req, res) => {
 });
 // Listener
 app.listen(port, () => console.log(`Listening on localhost:${port}`));
-
-export default app;
-// export default app = functions.https.onRequest(app);
